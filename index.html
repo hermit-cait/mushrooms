@@ -14,21 +14,21 @@
       body {
         background-color: hsl(88, 57%, 91%);
         font-family: "Open Sans";
-        letter-spacing: 0.18rem;
+        letter-spacing: 0.1rem;
       }
       h1 {
         color: hsl(35, 74%, 12%);
         font-size: 3rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.2rem;
         text-align: center;
         word-wrap: break-word;
         margin-block-start: 4rem;
         margin-block-end: 1.5rem;
+        margin-inline-start: 0.2rem;
       }
       h2 {
         color: hsl(98, 72%, 35%);
         font-size: 1.8rem;
-        letter-spacing: 0.3rem;
         text-align: center;
         margin-block-end: 1rem;
       }
@@ -46,9 +46,9 @@
         height: auto;
       }
       .poem {
-        color: hsl(359, 47%, 51%);
+        color: hsl(98, 72%, 15%);
         font-size: 1.2rem;
-        padding-inline: 1rem;
+        padding-inline: 2rem;
       }
       .footer {
         color: hsl(35, 74%, 12%);
@@ -72,19 +72,20 @@
         }
         .content {
           background-color: hsl(88, 57%, 97%);
-          width: clamp(10rem, 70vw, 60rem);
+          width: clamp(30rem, 50vw, 50rem);
+          padding-block: 0.5rem;
           border: none;
         }
         .mushroom {
-          width: clamp(5rem, 60vw, 52rem);
+          width: clamp(25rem, 40vw, 45rem);
         }
         .poem {          
-          font-size: 1.5rem;
           width: fit-content;
           margin: 0 auto;
           padding-inline: 3rem;
         }
         .footer {
+          font-size: 0.9rem;
           border-top: none;
         }
       }
